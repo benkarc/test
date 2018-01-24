@@ -4,7 +4,7 @@
 
 .main h2{
   text-align: center;
-  font-family: sans-serif, courier;
+  font-family: sans-serif 'courier';
   font-weight: 200;
   color: rgba(4, 2, 19, 0.87);
 }
@@ -34,7 +34,7 @@
   align-content: center
 }
 .intro h1{
-  font-family: serif, monospace;
+  font-family: serif 'monospace';
   font-weight: 700;
 }
 
