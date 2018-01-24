@@ -2,7 +2,7 @@
   background-color: rgba(223, 247, 225, 0.8);
 }
 
-.main:h2{
+.main h2{
   text-align: center;
   font-family: sans-serif courier;
   font-weight: 200;
@@ -12,8 +12,8 @@
 .main{
   display: grid;
   width: 500px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 70px;
   align-content: center;
   position: absolute;
