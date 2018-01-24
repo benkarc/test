@@ -1,0 +1,81 @@
+* {
+  background-color: rgba(223, 247, 225, 0.8);
+  height:
+
+}
+
+.main h2{
+  text-align: center;
+  font-family: sans-serif courier;
+  font-weight: 200;
+  color: rgba(4, 2, 19, 0.87);
+}
+
+.main {
+  display: grid;
+  width: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: repeat(3, 1fr);
+  grid-gap: 70px;
+  align-content: center;
+  position: absolute;
+  right: 50%;
+  padding-top: 10px;
+
+}
+.intro {
+  width: 50%;
+  border: solid 3px rgba(243, 3, 3, 0.58);
+  padding: 2.5px 5px 10px 5px;
+  font-family: serif courier 23px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: bold;
+  align-content: center
+}
+.intro h1 {
+  font-family: serif monospace;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 530;
+  font-family: monospace;
+}
+.janina .zenius .laima .povilas .laura .vytautas: h2 {
+  font-family: monospace;
+}
+
+.janina, .zenius, .laima, .povilas, .laura, .vytautas {
+  border: 6px solid rgba(243, 3, 3, 0.58);
+  padding:3px 5px 25px 5px;
+  margin-bottom: 10px;
+  border-radius: 45px;
+  justify-content: center;
+  width: 250px;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+.zenius, {
+  float: left;
+  margin: 0 auto;
+  clear: both;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 50%;
+}
+
+footer {
+  font-family:sans-serif monospace 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
